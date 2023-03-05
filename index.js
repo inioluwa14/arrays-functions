@@ -56,7 +56,7 @@ function maxValue(array){
     return Math.max(...array);
 }
 
-console.log(maxValue([4,5,10,-2,14]));
+console.log('The maximum value is ' + maxValue([4,5,10,-2]));
 
 // Question 5
 function valTimesIndex(numArray){
@@ -67,3 +67,4 @@ function valTimesIndex(numArray){
     return newArray;
 }
 console.log(valTimesIndex([5,10,15]));
+console.log(valTimesIndex([1,2,3]));
